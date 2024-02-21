@@ -25,6 +25,7 @@ const BlockChain = () => {
             By building the software on blockchain, Nexai provides the following
             advantages
           </p>
+          
           <div className="sm:h-[646px] h-[620px] lg:my-10 mt-10 md:mb-[100px] mb-[80px] overflow-y-scroll scroll_none">
             <div className="flex flex-row md:gap-0 gap-5 flex-wrap lg:h-[646px] py-10 items-center justify-between lg:px-7 px-3 relative mb-8" data-aos="zoom-in">
               <img
