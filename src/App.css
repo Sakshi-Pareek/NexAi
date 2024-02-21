@@ -1,38 +1,113 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.ff_play {
+  font-family: "Play", sans-serif;
+}
+@font-face {
+  font-family: "neuro-political";
+  src: url(./assets//fonts/neuropolitical_rg.otf);
+}
+
+.ff_neuro {
+  font-family: "neuro-political";
+}
+.scroll_none{
+  scrollbar-width: none !important;
+}
+/* ---------------------backtotop------------------- */
+.updown_animation {
+  animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-7px);
+  }
+}
+/* -----------------------------PRELOADER---------------------- */
+.cs-loader-inner {
+  transform: translateY(-50%);
+  display: flex;
+  gap: 2px;
+  top: 50%;
+  /* position: absolute; */
+  width: calc(100% - 200px);
+  color: #FFF;
+  padding: 0 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cs-loader-inner label {
+  font-size: 24px;
+  opacity: 0;
+  display:inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes lol {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(300px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@-webkit-keyframes lol {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(300px);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.cs-loader-inner label:nth-child(6) {
+  -webkit-animation: lol 2s infinite ease-in-out;
+  animation: lol 2s infinite ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cs-loader-inner label:nth-child(5) {
+  -webkit-animation: lol 2s 100ms infinite ease-in-out;
+  animation: lol 2s 100ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(4) {
+  -webkit-animation: lol 2s 200ms infinite ease-in-out;
+  animation: lol 2s 200ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(3) {
+  -webkit-animation: lol 2s 300ms infinite ease-in-out;
+  animation: lol 2s 300ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(2) {
+  -webkit-animation: lol 2s 400ms infinite ease-in-out;
+  animation: lol 2s 400ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(1) {
+  -webkit-animation: lol 2s 500ms infinite ease-in-out;
+  animation: lol 2s 500ms infinite ease-in-out;
 }
