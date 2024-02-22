@@ -11,7 +11,7 @@ const HeaderSec = () => {
   }
   return (
     <>
-      <div className="fulldesk:min-h-screen sm:h-[810px] h-[600px] relative bg-[#08090E] ">
+      <div className="2xl:min-h-screen  sm:h-[810px] h-[600px] relative bg-[#08090E]">
         <div className="bg-[#08090E] absolute w-full h-full top-0 left-0">
           <img
             src={heropattern}
