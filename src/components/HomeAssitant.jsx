@@ -11,7 +11,7 @@ const HomeAssitant = () => {
           className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto sm:pt-[75px] desktop:pb-[130px] sm:pb-[100px] py-[70px] bg-[#08090E]"
           id="about"
         >
-          <div className="flex flex-row flex-wrap items-center lg:justify-between justify-center lg:gap-0 md:gap-12 gap-10">
+          <div className="flex flex-row flex-wrap-reverse items-center lg:justify-between justify-center lg:gap-0 md:gap-12 gap-10">
             <div className="lg:w-[55%] w-full max:lg-flex justify-center items-center max-lg:flex-col max-lg:text-center">
               <h2 className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] xl:mb-4 mb-3" data-aos="zoom-in-right">
                 Ai-Powered Home Assistant
@@ -48,7 +48,7 @@ const HomeAssitant = () => {
               <img
                 src={HomeAssitanAi}
                 alt="HomeAssitanAi"
-                className="xl:max-w-[288px] lg:max-w-[272px] sm:max-w-[300px] max-w-[217px] w-full mix-blend-color-dodge absolute lg:right-[-12%] md:right-[13%] sm:right-[5%] right-[-4%] z-0 top-1/2 sm:translate-y-[-48%] translate-y-[-44%] "
+                className="xl:max-w-[288px] lg:max-w-[265px] md:max-w-[275px] sm:max-w-[300px] max-w-[217px] w-full mix-blend-color-dodge absolute xl:right-[-12%] lg:right-[-4%] md:right-[13%] sm:right-[5%] right-[-4%] z-0 top-1/2 sm:translate-y-[-48%] translate-y-[-44%] "
               />
             </div>
           </div>

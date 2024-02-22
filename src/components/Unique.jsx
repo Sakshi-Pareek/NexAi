@@ -24,7 +24,7 @@ const Unique = () => {
           alt="UniqueEarth"
           className="max-w-[1140px] w-full absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 mix-blend-lighten z-[2]"
         />
-        <div className="container lg:max-w-[1140px] lg:px-3 px-5 mx-auto relative z-[2] h-[900px] overflow-y-scroll scroll_none sm:mb-10">
+        <div className="container lg:max-w-[1140px] lg:px-3 px-5 mx-auto relative z-[2] sm:mb-10">
           <h3
             className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] mb-4 text-center"
             data-aos="zoom-in"
@@ -38,7 +38,7 @@ const Unique = () => {
             ability to engage in natural, fluent conversations in over 15
             languages,
           </p>
-          <div className="flex flex-wrap flex-row desktop:mt-[100px] lg:mt-[70px] md:mt-[40px] mt-5 lg:gap-0 sm:gap-10 gap-4">
+          <div className="flex flex-wrap flex-row desktop:mt-[100px] lg:mt-[70px] md:mt-[40px] mt-5 lg:gap-0 sm:gap-10 gap-4 h-[680px] overflow-y-scroll scroll_none">
             <div
               className="w-full flex flex-col items-start"
               data-aos="zoom-in-right"
