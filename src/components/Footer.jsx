@@ -151,13 +151,13 @@ const Footer = () => {
                   placeholder="E-mail"
                   className="font-normal w-full text-[16px] text-white opacity-60 leading-[150%] bg-transparent sm:ps-[18px] ps-1 outline-none"
                 />
-                <button className="text-[#FCFCFC] rounded-[12px] px-[32.5px] sm:py-[15.5px] py-3 border-transparent bg-[#0066FF] font-medium text-[18px] leading-[150%] transition-all duration-500 ease-linear hover:border-[#0066FF] hover:scale-[0.95] text-nowrap">
+                <button className="text-[#FCFCFC] rounded-[12px] px-[32.5px] sm:py-[15.5px] py-3 border-transparent bg-[#0066FF] font-medium text-[18px] leading-[150%] transition-all duration-500 ease-linear hover:border-[#0066FF] hover:text-[#0066FF] hover:bg-white border-2 text-nowrap">
                 Get Started
                 </button>
               </div>
             </div>
           </div>
-          <div className="w-full h-1 bg-gradient-to-b from-[#0066FF] to-[#02CDCF] opacity-40"></div>
+          <div className="w-full h-1 bg-gradient-to-b from-[#0066FF] to-[#02CDCF] opacity-40 rounded-[16px]"></div>
           <p className="text-center text-[16px] text-white opacity-70 leading-[130%] py-5">@Copyright.nexai</p>
         </div>
       </div>

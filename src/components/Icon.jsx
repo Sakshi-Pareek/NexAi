@@ -1,6 +1,6 @@
 export const Facebook = () => {
   return (
-    <svg className="group-hover:shadow-[0_3px_5px_rgba(255,_255,_255,_1)] rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
+    <svg className="rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
       width="38"
       height="38"
       viewBox="0 0 38 38"
@@ -18,7 +18,7 @@ export const Facebook = () => {
 };
 export const Twitter = () => {
   return (
-    <svg className="group-hover:shadow-[0_3px_5px_rgba(255,_255,_255,_1)] rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
+    <svg className="rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
       width="40"
       height="40"
       viewBox="0 0 40 40"
@@ -39,7 +39,7 @@ export const Twitter = () => {
 };
 export const Telegram = () => {
   return (
-    <svg className="group-hover:shadow-[0_3px_5px_rgba(255,_255,_255,_1)] rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
+    <svg className="rounded-[50%] group-hover:translate-y-[-4px] transition-all duration-300 ease-linear"
       width="38"
       height="38"
       viewBox="0 0 38 38"
