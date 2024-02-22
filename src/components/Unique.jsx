@@ -26,7 +26,7 @@ const Unique = () => {
         />
         <div className="container lg:max-w-[1140px] lg:px-3 px-5 mx-auto relative z-[2] sm:mb-10">
           <h3
-            className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] mb-4 text-center"
+            className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] mb-4 text-center"
             data-aos="zoom-in"
           >
             Unique features

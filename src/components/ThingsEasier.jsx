@@ -68,11 +68,11 @@ const ThingsEasier = () => {
         className="relative bg-[url('assets/images/webp/ThingsEasierBg.webp')] lg:bg-full bg-cover bg-center bg-no-repeat xl:h-[955px] lg:h-[710px] h-[655px]"
         id="NexChat"
       >
-        <div className="absolute w-[274px] h-[182px] opacity-[60%] z-[1] rounded-[100px] bg-[#0066FF] blur-[150px] left-[-10%] animate-pulse top-[-40%]"></div>
+        <div className="absolute w-[274px] h-[182px] opacity-[60%] z-0 rounded-[100px] bg-[#0066FF] blur-[150px] left-[-10%] animate-pulse top-[-40%]"></div>
         <div className="absolute left-0 -bottom-1 right-0 w-full h-[102px] bg-gradient-to-b from-[#08090e00] to-[#08090E]"></div>
         <div className="container max-w-[1164px] mx-auto lg:px-3 px-5 desktop:pt-[60px]">
           <h4
-            className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[120%] text-[#FCFCFC] mb-4 text-center"
+            className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[120%] text-[#FCFCFC] mb-4 text-center"
             data-aos="zoom-in"
           >
             Things going easier with NexAi

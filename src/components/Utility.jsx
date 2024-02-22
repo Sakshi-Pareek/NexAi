@@ -6,14 +6,14 @@ const Utility = () => {
   return (
     <>
       <div className="desktop:py-[90px] pb-[70px] pt-[60px] bg-utility bg-full bg-no-repeat bg-center relative z-[1]" id="Tokens">
-      <div className="absolute w-[274px] h-[274px] opacity-[60%] z-[1] rounded-[100px] bg-[#0066FF] blur-[150px] left-[-8%] animate-pulse top-[4%]"></div>
+      <div className="absolute w-[274px] h-[274px] opacity-[60%] z-0 rounded-[100px] bg-[#0066FF] blur-[150px] left-[-8%] animate-pulse top-[4%]"></div>
         <img
           src={UtilityLayer}
           alt="UtilityLayer"
           className="absolute top-0 left-0 h-full w-full z-[-1] mix-blend-overlay"
         />
         <div className="container lg:max-w-[1164px] lg:px-3 px-5 mx-auto">
-          <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] text-center desktop:mb-[70px] xl:mb-10 mb-7" data-aos="zoom-in">
+          <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] text-center desktop:mb-[70px] xl:mb-10 mb-7" data-aos="zoom-in">
             NexAI Token & utility
           </h3>
           <div className="border border-[#0066FF] backdrop-blur-md bg-[#ffffff00] rounded-[32px] xl:px-[60px] sm:px-7 px-3 sm:py-0 py-5 xl:h-[740px] lg:h-[680px] sm:h-[500px] items-center relative overflow-hidden">

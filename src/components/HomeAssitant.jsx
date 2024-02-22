@@ -5,15 +5,15 @@ import HomeAssitanAi from "../assets/images/gif/HomeAssitantGif.gif";
 const HomeAssitant = () => {
   return (
     <>
-      <div className="relative">
-        <div className="absolute w-[224px] h-[168px] opacity-[50%] z-[1] rounded-[50%] bg-[#0066FF] blur-[90px] left-[-9%] animate-pulse bottom-[38%] "></div>
+      <div className="relative bg-[#08090E]">
+        <div className="absolute w-[224px] h-[168px] opacity-[50%] z-0 rounded-[50%] bg-[#0066FF] blur-[90px] left-[-9%] animate-pulse bottom-[38%]"></div>
         <div
-          className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto sm:pt-[75px] desktop:pb-[130px] sm:pb-[100px] py-[70px] bg-[#08090E]"
+          className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto desktop:pb-[130px] sm:pb-[100px] sm:pt-[75px] pt-10 pb-[60px]"
           id="about"
         >
           <div className="flex flex-row flex-wrap-reverse items-center lg:justify-between justify-center lg:gap-0 md:gap-12 gap-10">
             <div className="lg:w-[55%] w-full max:lg-flex justify-center items-center max-lg:flex-col max-lg:text-center">
-              <h2 className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] xl:mb-4 mb-3" data-aos="zoom-in-right">
+              <h2 className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] xl:mb-4 mb-3" data-aos="zoom-in-right">
                 Ai-Powered Home Assistant
               </h2>
               <p className="text-[#B5B5B7] text-[16px] leading-[162.9%] font-normal mb-1.5" data-aos="zoom-in-right">

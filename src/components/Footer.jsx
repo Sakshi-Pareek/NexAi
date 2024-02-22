@@ -4,7 +4,7 @@ import { Facebook, Telegram, Twitter } from "./Icon";
 const Footer = () => {
   return (
     <>
-      <div className="bg-footerbg bg-no-repeat lg:bg-full bg-cover bg-center xl:pt-[325px] md:pt-[270px] pt-[250px]">
+      <div className="bg-footerbg bg-no-repeat lg:bg-full bg-cover bg-center xl:pt-[325px] md:pt-[270px] sm:pt-[250px] pt-[200px]">
         <div className="container lg:max-w-[1164px] lg:px-3 px-5 mx-auto">
           <div className="flex flex-wrap flex-row justify-between lg:gap-0 gap-10 md:mb-[60px] mb-10">
           <div className="xl:w-[35%] lg:w-[40%] w-full md:hidden block">

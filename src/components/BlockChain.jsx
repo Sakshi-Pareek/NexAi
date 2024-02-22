@@ -8,11 +8,11 @@ import BorderLine from "../assets/images/webp/BorderLine.webp";
 const BlockChain = () => {
   return (
     <>
-      <div className="pt-[23px] relative bg-[#08090E]" id="Privacy">
-      <div className="absolute w-[274px] h-[274px] opacity-[60%] z-[1] rounded-[100px] bg-[#0066FF] blur-[150px] left-[-10%] animate-pulse top-[20%]"></div>
-      <div className="absolute w-[274px] h-[182px] opacity-[60%] z-[1] rounded-[100px] bg-[#0066FF] blur-[150px] right-[-10%] animate-pulse bottom-[20%]"></div>
+      <div className="sm:pt-[23px] pt-[15px] relative bg-[#08090E]" id="Privacy">
+      <div className="absolute w-[274px] h-[274px] opacity-[60%] z-0 rounded-[100px] bg-[#0066FF] blur-[150px] left-[-10%] animate-pulse top-[20%]"></div>
+      <div className="absolute w-[274px] h-[182px] opacity-[60%] z-0 rounded-[100px] bg-[#0066FF] blur-[150px] right-[-10%] animate-pulse bottom-[20%]"></div>
         <div className="container lg:max-w-[1168px] lg:px-3 px-5 mx-auto ">
-          <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[120%] text-[#FCFCFC] mb-4" data-aos="zoom-in-right">
+          <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[120%] text-[#FCFCFC] mb-4" data-aos="zoom-in-right">
             Blockchain & AI technology
           </h3>
           <p className="text-[#B5B5B7] text-[16px] leading-[162.9%] font-normal max-w-[997px] desktop:mb-10 mb-5" data-aos="zoom-in-right">
@@ -26,7 +26,7 @@ const BlockChain = () => {
             advantages
           </p>
           
-          <div className="sm:h-[646px] h-[620px] lg:my-10 mt-10 md:mb-[100px] mb-[80px] overflow-y-scroll scroll_none">
+          <div className="sm:h-[646px] h-[620px] lg:my-10 mt-10 md:mb-[100px] sm:mb-[80px] mb-[60px] overflow-y-scroll scroll_none">
             <div className="flex flex-row md:gap-0 gap-5 flex-wrap lg:h-[646px] py-10 items-center justify-between lg:px-7 px-3 relative mb-8" data-aos="zoom-in">
               <img
                 src={BorderLine}

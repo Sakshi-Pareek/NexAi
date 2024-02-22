@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         'nexai': "url('assets/images/webp/ThingsEasierBg.webp)",
-        
         'utility': "url('assets/images/webp/UtilityBg.webp')",
         'getintouch': "url('assets/images/webp/GetInTouchBg.webp')",
         'footerbg': "url('assets/images/webp/FooterBg.webp')",
@@ -18,6 +17,7 @@ module.exports = {
         'full': "100% 100%",
       },
       screens: {
+        'fulldesk': "1600px",
         'desktop': "1365px"
       }
 

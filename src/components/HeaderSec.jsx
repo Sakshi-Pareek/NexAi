@@ -11,7 +11,7 @@ const HeaderSec = () => {
   }
   return (
     <>
-      <div className="2xl:min-h-screen sm:h-[810px] h-[600px] relative bg-[#08090E] ">
+      <div className="fulldesk:min-h-screen sm:h-[810px] h-[600px] relative bg-[#08090E] ">
         <div className="bg-[#08090E] absolute w-full h-full top-0 left-0">
           <img
             src={heropattern}
@@ -23,7 +23,7 @@ const HeaderSec = () => {
         <img
           src={HomeRobot}
           alt="HomeRobot"
-          className="absolute md:top-1/2 sm:top-[4%] left-1/2 md:translate-y-[-70%] -translate-x-1/2 sm:max-w-[450px] max-w-[400px]"
+          className="absolute md:top-1/2 sm:top-[4%] left-1/2 xl:translate-y-[-62%] md:translate-y-[-70%] -translate-x-1/2 xl:max-w-[590px] sm:max-w-[450px] max-w-[400px]"
         />
         <div className="absolute left-0 -bottom-1 right-0 w-full h-[121px] bg-gradient-to-b from-[#08090e00] to-[#08090E]"></div>
         <div className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto">
@@ -101,7 +101,7 @@ const HeaderSec = () => {
           </nav>
         </div>
         <div
-          className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto relative 2xl:pt-[280px] xl:pt-[145px] sm:pt-[170px] pt-[130px] flex flex-col justify-center items-center"
+          className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto relative fulldesk:pt-[285px] 2xl:pt-[155px] xl:pt-[150px] md:pt-[145px] sm:pt-[170px] pt-[130px] flex flex-col justify-center items-center"
           id="home"
         >
           <h1

@@ -4,8 +4,8 @@ const GetInTouch = () => {
   return (
     <>
       <div className="conatiner lg:max-w-[1168px] lg:px-3 px-5 mx-auto">
-        <div className="bg-getintouch bg-no-repeat bg-full bg-center rounded-[16px] sm:px-5 px-3 flex justify-center items-center flex-col md:py-[71px] py-8 translate-y-[26%] xl:mt-[-56px] lg:mt-[-60px] sm:mt-[-71px] mt-[-100px" id="Contact">
-            <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] text-[38px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] mb-4 text-center" data-aos="zoom-in">Get in touch with us</h3>
+        <div className="bg-getintouch bg-no-repeat bg-full bg-center rounded-[16px] sm:px-5 px-3 flex justify-center items-center flex-col md:py-[71px] py-8 translate-y-[26%] xl:mt-[-56px] lg:mt-[-60px] sm:mt-[-15px] mt-[-60px]" id="Contact">
+            <h3 className="ff_play font-normal xl:text-[48px] md:text-[42px] sm:text-[32px] text-[28px] sm:leading-[125.5%] leading-[100%] text-[#FCFCFC] mb-4 text-center" data-aos="zoom-in">Get in touch with us</h3>
             <p className="text-[#B5B5B7] text-[16px] leading-[162.9%] font-normal mx-auto max-w-[713px] text-center lg:mb-[30px] mb-5" data-aos="zoom-in">For our early supporters, we have curated an exclusive presale opportunity. To ensure your participation, we will be implementing a whitelist registration process. By signing up on the whitelist and following the provided instructions, you will secure your spot in this exciting event. To stay informed about the whitelist opening and receive timely updates, kindly provide us with your email address, and we will notify you accordingly.</p>
            <div data-aos="zoom-in">
            <a
