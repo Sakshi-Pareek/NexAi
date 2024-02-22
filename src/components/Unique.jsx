@@ -1,10 +1,10 @@
 import React from "react";
-import RemoteAccess from "../assets/images/png/RemoteAccess.png";
-import RealTime from "../assets/images/png/RealTime.png";
-import Awareness from "../assets/images/png/Awareness.png";
-import Autonomous from "../assets/images/png/Autonomous.png";
+import RemoteAccess from "../assets/images/webp/RemoteAccess.webp";
+import RealTime from "../assets/images/webp/RealTime.webp";
+import Awareness from "../assets/images/webp/Awareness.webp";
+import Autonomous from "../assets/images/webp/Autonomous.webp";
 import UniqueEarth from "../assets/images/gif/GloblyEarthGif.gif";
-import GradientLayer from "../assets/images/png/UniqueEartLayerGradient.png";
+import GradientLayer from "../assets/images/webp/UniqueEartLayerGradient.webp";
 
 const Unique = () => {
   return (

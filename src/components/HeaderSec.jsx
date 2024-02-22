@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import heropattern from "../assets/images/gif/HeroGif.gif";
-import HomeRobot from "../assets/images/png/HomeRobot.png";
+import HomeRobot from "../assets/images/webp/HomeRobot.webp";
 
 const HeaderSec = () => {
   const [show, setShow] = useState(true);

@@ -1,5 +1,5 @@
 import React from "react";
-import HomeAssitanthead from "../assets/images/png/HomeAssitantHead.png";
+import HomeAssitanthead from "../assets/images/webp/HomeAssitantHead.webp";
 import HomeAssitanAi from "../assets/images/gif/HomeAssitantGif.gif";
 
 const HomeAssitant = () => {

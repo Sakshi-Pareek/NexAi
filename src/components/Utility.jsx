@@ -1,6 +1,6 @@
 import React from "react";
-import UtilityLayer from "../assets/images/png/UtilityLayer.png";
-import UtilityBlueCircle from "../assets/images/png/UtilityBlueCircle.png";
+import UtilityLayer from "../assets/images/webp/UtilityLayer.webp";
+import UtilityBlueCircle from "../assets/images/webp/UtilityBlueCircle.webp";
 
 const Utility = () => {
   return (

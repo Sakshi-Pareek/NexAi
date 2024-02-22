@@ -65,7 +65,7 @@ const ThingsEasier = () => {
   return (
     <>
       <div
-        className="relative bg-[url('assets/images/png/ThingsEasierBg.png')] lg:bg-full bg-cover bg-center bg-no-repeat xl:h-[955px] lg:h-[710px] h-[655px]"
+        className="relative bg-[url('assets/images/webp/ThingsEasierBg.webp')] lg:bg-full bg-cover bg-center bg-no-repeat xl:h-[955px] lg:h-[710px] h-[655px]"
         id="NexChat"
       >
         <div className="absolute w-[274px] h-[182px] opacity-[60%] z-[1] rounded-[100px] bg-[#0066FF] blur-[150px] left-[-10%] animate-pulse top-[-40%]"></div>

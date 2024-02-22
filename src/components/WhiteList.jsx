@@ -1,5 +1,5 @@
 import React from "react";
-import WhiteListAi from "../assets/images/png/WhiteListAi.png";
+import WhiteListAi from "../assets/images/webp/WhiteListAi.webp";
 
 const WhiteList = () => {
   return (

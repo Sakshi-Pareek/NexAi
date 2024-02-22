@@ -1,9 +1,9 @@
 import React from "react";
-import SecurityBlockChain from "../assets/images/png/SecurityBlockchain.png";
-import DataManagment from "../assets/images/png/DataManagment.png";
-import Personalization from "../assets/images/png/Personalization.png";
-import Transactions from "../assets/images/png/Transactions.png";
-import BorderLine from "../assets/images/png/BorderLine.png";
+import SecurityBlockChain from "../assets/images/webp/SecurityBlockchain.webp";
+import DataManagment from "../assets/images/webp/DataManagment.webp";
+import Personalization from "../assets/images/webp/Personalization.webp";
+import Transactions from "../assets/images/webp/Transactions.webp";
+import BorderLine from "../assets/images/webp/BorderLine.webp";
 
 const BlockChain = () => {
   return (

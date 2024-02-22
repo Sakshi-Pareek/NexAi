@@ -6,10 +6,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'nexai': "url('assets/images/png/ThingsEasierBg.png)",
-        'utility': "url('assets/images/png/UtilityBg.png')",
-        'getintouch': "url('assets/images/png/GetInTouchBg.png')",
-        'footerbg': "url('assets/images/png/FooterBg.png')",
+        'nexai': "url('assets/images/webp/ThingsEasierBg.webp)",
+        
+        'utility': "url('assets/images/webp/UtilityBg.webp')",
+        'getintouch': "url('assets/images/webp/GetInTouchBg.webp')",
+        'footerbg': "url('assets/images/webp/FooterBg.webp')",
         'earth': "url('assets/images/gif/GloblyEarthGif.gif')",
 
       },
